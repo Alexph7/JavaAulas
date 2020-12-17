@@ -1,2 +1,0 @@
-# JavaInicio
-Primeiros Passos Java
