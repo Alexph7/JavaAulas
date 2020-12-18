@@ -1,0 +1,18 @@
+     
+     		   	__________________________________________________________________	
+		       |FAMILIA  |   TIPO    |  CLASSE   |  TAMANHO  |       EXEMPLO      |
+        	       |         | PRIMITIVO | INVÓLUCRO |           |                    |
+                       |_________|___________|___________|___________|____________________|
+		       |Lógico   |  boolean  |  Boolean  |   1 bit   |        true        |
+        	       |_________|___________|___________|___________|____________________|
+        	       |Literais |   char    | Character |   1 byte  |         'A'        |
+	               |Literais |    -      |  String   |1 byte/cada|       "JAVA"       |
+  		       |_________|___________|___________|___________|____________________|
+		       |Inteiros |   byte    |   Byte    |   1 byte  |         127        |
+	               |Inteiros |   short   |   Short   |   2 bytes |       32 767       |
+	               |Inteiros |    int    |  Integer  |   4 bytes |      2 147 483     |
+		       |Inteiros |   long    |   Long    |   8 bytes |        2^63        |
+                       |_________|___________|___________|___________|____________________|
+        	       |Reais    |   float   |   Float   |   4 bytes |      3.4e+^38      |
+	               |Reais    |  double   |  Double   |   8 bytes |      1.8e+^308     |
+		       |_________|___________|___________|___________|____________________|
