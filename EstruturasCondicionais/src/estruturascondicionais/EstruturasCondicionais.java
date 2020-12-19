@@ -14,18 +14,15 @@ public class EstruturasCondicionais {
         float n2 = teclado.nextFloat();
         float m = (n1+n2)/2;
         System.out.println("A média é "+m);
-        
-            if(m>0 && m<6){
-                System.out.println("Você Foi Reprovado");
-            }
-                else if (m<5.5 && m<7.5){
-                        System.out.println("Você Ficou de Recuperção");
-                }                
-                    else if(m>=7.5 && m<10){
-                                System.out.println("PARABÉNS, VOCÊ FOI APROVADO!");
+            if (m>0 && m<=5){
+                System.out.println("Ficou de Recuperação ");
+            }else if(m>5 && m<=8){
+                System.out.println("Ficou De Recuperação ");
+                }else if(m>8 && m<=10){
+                    System.out.println("APROVADOOOOOO PARABÉNS");
                     }else{
                         System.out.println("ERRO!!!");
-                    }
+                }
             }                  
                         
         }
