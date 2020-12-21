@@ -1,0 +1,23 @@
+
+package vetor5;
+
+import java.util.Arrays;
+
+/**
+ * @author ALEX
+ */
+public class Vetor5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int v[] = new int[20];
+        Arrays.fill(v, 0);
+        for(int vl:v){
+            System.out.print(vl+" ");
+        }
+    }
+    
+}
