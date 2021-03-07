@@ -39,38 +39,49 @@ public static void main(String[] args) {
     if (cc % 2 == 0) {
       x = "x";
       System.out.println(j1 + " Digite Um Numero Par Marcar \"x\": ");
-      int n1 = scan.nextInt();
     } else {
       x = "o";
       System.out.println(j2 + " Digite Um Numero Par Marcar \"o\": ");
-      int n2 = scan.nextInt();
     }
-
+    int jogada = scan.nextInt();
+    Integer resp = jogada;
+    
     for (int i = 0; i < velha.length; i++) {
-      if ((velha[i][0] == velha[i][1]) && (velha[i][1] == velha[i][2])) {
-        ganhador = true;
-        System.out.println("Parabéns " + x + " Você Ganhou!!");
+      for (int j = 0; j < 8; j++) {
+        if (resp.equals(velha[i][j])) {
+          velha[i][j] = x;
+        } else {
+        }
       }
-    }
-    for (int i = 0; i < velha.length; i++) {
-      if ((velha[0][i] == velha[1][i]) && (velha[1][i] == velha[2][i])) {
-        ganhador = true;
-        System.out.println("Parabéns " + x + " Você Ganhou!!");
-      }
-    }
-
-    if ((velha[0][0] == velha[1][1]) && (velha[1][1] == velha[2][2])) {
-      ganhador = true;
-      System.out.println("Parabéns " + x + " Você Ganhou!!");
-    } else if ((velha[0][2] == velha[1][1]) && (velha[2][0] == velha[3][3])) {
-      ganhador = true;
-      System.out.println("Parabéns " + x + " Você Ganhou!!");
-    }
-    cc++;
-    if (cc == 9) {
-      System.out.println("Deu Velha!!!");
     }
   }
+
+  for (int i = 0; i < velha.length; i++) {
+    if ((velha[i][0] == velha[i][1]) && (velha[i][1] == velha[i][2])) {
+      ganhador = true;
+      System.out.println("Parabéns " + x + " Você Ganhou!!");
+    }
+  }
+  for (int i = 0; i < velha.length; i++) {
+    if ((velha[0][i] == velha[1][i]) && (velha[1][i] == velha[2][i])) {
+      ganhador = true;
+      System.out.println("Parabéns " + x + " Você Ganhou!!");
+    }
+  }
+
+  if ((velha[0][0] == velha[1][1]) && (velha[1][1] == velha[2][2])) {
+    ganhador = true;
+    System.out.println("Parabéns " + x + " Você Ganhou!!");
+  } else if ((velha[0][2] == velha[1][1]) && (velha[2][0] == velha[3][3])) {
+    ganhador = true;
+    System.out.println("Parabéns " + x + " Você Ganhou!!");
+  }
+  cc++;
+  if (cc == 9) {
+    System.out.println("Deu Velha!!!");
+  }
+}
+
 }
 
 }
