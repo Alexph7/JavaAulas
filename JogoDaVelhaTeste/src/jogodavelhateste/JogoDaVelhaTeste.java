@@ -4,14 +4,7 @@ import java.util.Scanner;
 
 public class JogoDaVelhaTeste {
 
-public static void main(String[] args) {
-
-  Scanner scan = new Scanner(System.in);
-  System.out.println("Jogador 1 Digite Seu Nome: ");
-  String j1 = scan.nextLine();
-  System.out.println("Jogador 2 Digite Seu Nome: ");
-  String j2 = scan.nextLine();
-
+public static void chamarVelha(Object[][] p){
   Object[][] velha = new Object[3][3];
   int c = 1;
   for (int i = 0; i < velha.length; i++) {
@@ -26,8 +19,19 @@ public static void main(String[] args) {
     System.out.println("");
     if (i != 2) {
       System.out.println("          ---+---+---");
+    
     }
   }
+}
+public static void main(String[] args) {
+
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Jogador 1 Digite Seu Nome: ");
+  String j1 = scan.nextLine();
+  System.out.println("Jogador 2 Digite Seu Nome: ");
+  String j2 = scan.nextLine();
+
+  Object[][] velha = new Object[3][3];
   
   int cc = 0;
   String x;
