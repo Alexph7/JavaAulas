@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class JogoDaVelhaTeste {
 
-public static void chamarVelha(Object[][] p){
-  Object[][] velha = new Object[3][3];
+public static void chamarVelha(Object[][] velha){
+  
   int c = 1;
   for (int i = 0; i < velha.length; i++) {
     for (int j = 0; j < velha[i].length; j++) {
