@@ -24,7 +24,6 @@ for(int j=0; j<nomesFilhos.lenght; j++){
 
   System.out.print("Digite o nome Do Filho: "+ (j+1));
   nomesFilhos[i][j] = scan.next();
-}
-
+  }
 }
 
