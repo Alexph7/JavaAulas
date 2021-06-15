@@ -1,0 +1,17 @@
+            Matriz Tridimensional - Arrays de arrays
+//Usado Mais Para Jogos 3D, Parecido Com Cubo
+
+1. int[][][] triDimensional = new int[3][3][3];
+
+//Lendo a Matriz
+
+for(int i=0; i<triDimensional.lenght; i++){
+  for(int j=0; j<triDimensional[i].lenght; j++){
+    for(int k=0; k<triDimensional[i][j].lenght; k++){
+         System.out.println("i" + i + "j" + j + "k");
+         triDimensional[i][j][k] = i + j + k;
+    }
+  }
+}
+
+
