@@ -15,7 +15,8 @@ idade[2] = new int[9]
 //Lendo o Array
 for(int i=0; i<idade.lenght; i++){
    for(int j = 0; j<idade[i].lenght /* j<idade[i].lenght-1  ?*/  j++){
-   
+      system.out.print(idade[i][j]+"");
     }
+    system.out.println();
 }
 ===================================================================================================================================================================================
