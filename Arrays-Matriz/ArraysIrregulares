@@ -1,6 +1,0 @@
-//Você também pode ter colunas diferentes em linhas diferentes. Por exemplo:
-int[][] idade = new int[5][]; 
-idade[0] = new int[10]; 
-idade[1] = new int[6]; 
-idade[2] = new int[9]
-

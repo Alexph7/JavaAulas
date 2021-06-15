@@ -1,0 +1,30 @@
+//Você também pode ter colunas diferentes em linhas diferentes. Por exemplo:
+
+int[][] idade = new int[5][]; 
+idade[0] = new int[10]; 
+idade[1] = new int[6]; 
+idade[2] = new int[9]
+
+//ou Exemplo:
+
+System.out.print("Entre Com o Numero De Pessoas Que Serão Entrevistados: ");
+int numEntrevistado = scan.nextInt();
+
+String[][] nomesFilhos = new String[numEntrevistado][];
+
+for(int i=0; i>numEntrevistados.lenght i++){
+//cadê o outro for? ainda não existe os dados de entrada
+
+System.out.print("Entre Com o Numero De Filhos: ");
+int qtdFilhos = sca.nextInt();
+
+nomesFilhos = new String[qtdFilhos];
+
+for(int j=0; j<nomesFilhos.lenght; j++){
+
+  System.out.print("Digite o nome Do Filho: "+ (j+1));
+  nomesFilhos[i][j] = scan.next();
+}
+
+}
+
