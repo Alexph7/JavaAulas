@@ -1,0 +1,10 @@
+Criação
+LinkedList<String> nomes = new LinkedList<String>();
+
+Metodos Específicos
+nomes.addFirst("Marcelo");
+nomes.addLast(Manoel);
+nomes.removeFirst();
+nomes.removeLast();
+nomes.getFisrt();
+nomes.getLast();
