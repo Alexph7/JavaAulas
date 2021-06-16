@@ -1,0 +1,9 @@
+Criação
+HashSet<String> tags = new HashSet<String>();
+HashSet<String> tags = new HashSet<String>(10);
+
+Funcionamento
+tags.add(java);
+tags.add("Programação");
+tags.add("poo");
+tags.add("java");
