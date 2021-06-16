@@ -8,3 +8,10 @@ nomes.removeFirst();
 nomes.removeLast();
 nomes.getFisrt();
 nomes.getLast();
+
+
+Iterator iter2 = nomes.iterator();
+		while(iter2.hasNext()){
+			System.out.println(iter2.next());
+		}
+
