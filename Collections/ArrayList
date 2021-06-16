@@ -1,0 +1,22 @@
+Usado Quando Não Se Sabe Qual O Tamanho Do Vetor
+/* Importe:
+import java.util.ArrayList;
+
+      ArrayList< Objeto > nomeDoArrayList = new ArrayList< Objeto >();
+      //Exemplo:
+      ArrayList<String> nomes = new ArrayList<String>();
+      ArrayList<Integer> idades = new ArrayList<String>(10);
+
+//Principais Metodos
+      nomes.add("João");       //Adiciona elemento ao fim da coleção.
+      nomes.get(0);            //Retorna o Objeto na Posição Passada Por Parâmetro.
+      nomes.set(0, "Maria");   //Permite Redefinir o Valor Do Objeto Na Posição Passada Por Parâmetro, A Posição 0 recebe o nome "Maria".
+      nomes.remove(0);         //Exclui um Objeto de Determinada Posição passada por Parâmetro;
+      nomes.clear();           //Remove todos Os Objetos da Lista De Uma Só Vez.
+      nomes.size();            //Retorna a Quantidades de Elementos Presentes Na Lista.
+      nomes.contains("João");  //Verifica se Determinado Objeto Está Presente Na Lista, retorna Verdadeiro ou Falso.
+      nomes.isEmpty();         //Verifica Se Uma Lista Possui Elementos.
+      nomes.indexOf("Marcos")  //Retorna o índice do Objeto Passado Por Parametro Caso ele esteja Presente na Lista.
+
+//Ordenação
+      Collection.sort(nomes);
