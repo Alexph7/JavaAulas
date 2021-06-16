@@ -1,0 +1,38 @@
+public class ContinueExemplo {  
+  
+  public static void main(String[] args) {  
+  
+  //loop for  
+  
+  for(int i = 1; i <= 10; i++) {  
+         if(i == 5) {  
+            //Usando declaração continue  
+            continue; //O restante da declaração será ignorada  
+         }  
+          System.out.println(i);  
+       }  
+    }  
+}  
+
+================================================
+
+public class ContinueExemplo2 {   
+   
+   public static void main(String[] args) {   
+   
+   //loop externo  
+   
+   for(int i = 1; i <= 3; i++){     
+          //loop interno   
+          for(int j = 1; j <= 3; j++){     
+          if(i == 2 && j == 2){     
+          //usando a declaração continue dentro do loop interno   
+   
+          continue;     
+                        }     
+          System.out.println(i + " " + j);     
+          
+          }     
+       }     
+    }   
+}  
