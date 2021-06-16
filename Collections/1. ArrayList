@@ -23,3 +23,11 @@ import java.util.ArrayList;
 
 //Ordenação
       Collection.sort(nomes);
+ 
+ ===========================================================================?????
+      Iterator iter1 = nomes.iterator();
+		while(iter1.hasNext()){
+		        System.out.println(iter1.next());
+		}
+		System.out.println(nomes.get(2));
+	}
