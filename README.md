@@ -8,7 +8,7 @@
 2. Collectios
     ArrayList
     LinkedList
-    HashLink
+    HashSet
     
 3. Estrutura de repetição
     Do-While
