@@ -3,11 +3,14 @@ Usado Quando Não Se Sabe Qual O Tamanho Do Vetor
 import java.util.ArrayList;
 
       ArrayList< Objeto > nomeDoArrayList = new ArrayList< Objeto >();
+      
       //Exemplo:
+      
       ArrayList<String> nomes = new ArrayList<String>();
       ArrayList<Integer> idades = new ArrayList<String>(10);
 
 //Principais Metodos
+
       nomes.add("João");       //Adiciona elemento ao fim da coleção.
       nomes.get(0);            //Retorna o Objeto na Posição Passada Por Parâmetro.
       nomes.set(0, "Maria");   //Permite Redefinir o Valor Do Objeto Na Posição Passada Por Parâmetro, A Posição 0 recebe o nome "Maria".
