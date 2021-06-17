@@ -2,9 +2,9 @@
 
     do{
      //código que será executado.
-    } while(true);
+    } while(condição);
   
-========================
+================================================
 
 Exemplo:
 
