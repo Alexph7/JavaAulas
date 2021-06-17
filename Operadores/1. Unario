@@ -1,3 +1,7 @@
+Operadores Unarios             
+             sufixos	expr++ expr--
+             prefixo	++expr --expr +expr -expr ~ !
+
 Os operadores unários requerem apenas um operando. Operadores unários são usados para executar várias operações, ou seja:
 
 Incrementando / decrementando um valor em um
