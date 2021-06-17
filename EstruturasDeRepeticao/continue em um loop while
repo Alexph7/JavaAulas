@@ -1,0 +1,22 @@
+Declaração continue em um loop while
+Exemplo:
+
+//Programa java para demonstrar o uso do continue  
+//dentro de um loop while.  
+
+public class ContinueWhileExemplo {  
+  public static void main(String[] args) {  
+    //loop while  
+
+    int i = 1;  
+    while(i <= 10){  
+        if(i == 5){  
+            //usando continue  
+            i++;  
+            continue; //Isso irá ignorar o restante da declaração  
+        }  
+        System.out.println(i);  
+        i++;  
+    }  
+  }  
+}  
