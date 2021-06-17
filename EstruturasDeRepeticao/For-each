@@ -1,0 +1,22 @@
+for(Tipo da variável variável : array) {     
+   //código que será executado  
+}
+
+========================================================
+
+//Exemplo de loop for-each em java que escreve os elementos do array  
+
+public class ForEachExemplo {  
+   public static void main(String[] args) {  
+   
+   //declaração do array  
+      int arr[] = {12, 23, 44, 56, 78};  
+   
+   //Imprimindo array usando loop for-each  
+      for(int i : arr) {  
+   
+      System.out.println(i)  
+
+    }  
+  }  
+}  
