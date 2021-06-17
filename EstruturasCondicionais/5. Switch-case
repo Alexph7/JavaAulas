@@ -1,0 +1,65 @@
+switch(expression){     
+   case value1:     
+      //código para ser executado;     
+      break;  //opcional  
+      
+   case value2:     
+      //código para ser executado;     
+      break;  //opcional   
+......     
+     
+default:      
+    //código para ser executado se todos os cases não são aceitos;     
+}  
+
+===================================================================
+
+//Programa Java para demonstrar o exemplo de switch  
+//Onde nós iremos imprimir o nome do mês para o número dado   
+
+public class SwitchMesExemplo {  
+
+  public static void main(String[] args) {  
+       //Especificando número do mês   
+  
+       int month=7;  
+       
+       String monthString="";   
+       
+       //Declaração switch   
+       switch(month){  
+       
+       //Declaração case dentro do bloco switch   
+       
+       case 1: monthString="1 - Janeiro";   
+          break;  
+       case 2: monthString="2 - Fevereiro";   
+          break;  
+       case 3: monthString="3 - Marco";   
+          break;  
+       case 4: monthString="4 - Abril";   
+          break;  
+       case 5: monthString="5 - Maio";   
+          break;  
+       case 6: monthString="6 - Junho";   
+          break;  
+       case 7: monthString="7 - Julho";   
+          break;  
+       case 8: monthString="8 - Agosto";   
+          break;  
+       case 9: monthString="9 - Setembro";   
+          break;     
+       case 10: monthString="10 - Outubro";   
+          break;  
+       case 11: monthString="11 - Novembro";   
+          break;  
+       case 12: monthString="12 - Dezembro";   
+          break;  
+       default:System.out.println("Mes Invalido!");  
+    }  
+    
+    //Escrevendo o mês de acordo com o número   
+    System.out.println(monthString);  
+  
+  }  
+}  
