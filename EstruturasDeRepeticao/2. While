@@ -1,11 +1,11 @@
-    while(condição) {  
-       
-       //código que será executado  
+  while(condição) {  
+      
+      //código que será executado  
+  }  
     
-    }  
-    
-    =================================
-    
+==============================================
+Exemplo:
+
 public class ExemploWhile {  
    public static void main(String[] args) {  
    
