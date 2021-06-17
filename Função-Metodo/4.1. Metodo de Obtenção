@@ -1,0 +1,9 @@
+Método de obtenção: o método que lê a variável da instância é conhecido como método de obtenção.
+Podemos identificá-lo facilmente porque o método é prefixado com a palavra get. 
+Também é conhecido como getters. Retorna o valor do campo privado.
+
+Exemplo
+
+public int  getId(){      
+    return id;      
+}  
