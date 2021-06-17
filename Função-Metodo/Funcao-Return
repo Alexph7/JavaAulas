@@ -11,3 +11,29 @@ static int soma (int a, int b){
     }
     
 }
+
+================================================================
+
+public String teste(){
+    return "Oi";
+}
+
+String a = teste();
+System.out.println(a);
+
+================================================================
+
+class Teste{
+
+public String mostrarNome(String nome){
+return "Meu Nome é: " + nome;
+}
+
+public static void main(String[]args){
+
+String nome = mostrarNome("Qualquer");
+
+System.out.println(nome);
+}
+}
+================================================================
