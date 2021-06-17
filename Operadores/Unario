@@ -1,0 +1,71 @@
+Os operadores unários requerem apenas um operando. Operadores unários são usados para executar várias operações, ou seja:
+
+Incrementando / decrementando um valor em um
+Negando uma expressão
+Invertendo o valor de um boolean
+
+Exemplo de operador unário: ++ e --
+
+class OperadorExemplo {  
+   public static void main (String args []) {  
+      
+      int x = 10;  
+      System.out.println (x++); // 10 (11)  
+      System.out.println (++x); // 12  
+      System.out.println (x--); // 12 (11)  
+      System.out.println (--x); // 10  
+      
+   }  
+}  
+Saída:
+
+10
+12
+12
+10
+
+========================================================================================================
+
+Operador Unário Exemplo 2: ++ e --
+
+class OperadorExemplo {  
+   public static void main (String args []) {  
+   
+      int a = 10;  
+      int b = 10;  
+      System.out.println (a++ + ++a); // 10 + 12 = 22  
+      System.out.println (b++ + b++); // 10 + 11 = 21  
+      
+   }  
+}  
+Saída:
+
+22
+21
+
+==========================================================================================================
+
+Exemplo de operador unário: ~ e !
+
+class OperadorExemplo {  
+   public static void main (String args []) {  
+   
+      int a = 10;  
+      int b = -10;  
+      boolean c = true;  
+      boolean d = false;  
+      System.out.println (~a); // - 11 (Inverte o sinal e subtrai com 1)  
+      System.out.println (~b); // 9 (Inverte o sinal e subtrai com 1)  
+      System.out.println (!c); // false (oposto ao valor booleano)  
+      System.out.println (!d); // true  
+   
+   }  
+}  
+Saída:
+
+-11
+9
+false
+true
+
+===============================================================================================================
