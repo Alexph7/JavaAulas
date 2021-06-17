@@ -1,0 +1,34 @@
+//Programa java para demonstrar o uso da declaração continue  
+//dentro do loop do while.  
+
+public class ContinueDoWhileExemplo {  
+   public static void main(String[] args) {  
+
+      //declarando variável  
+      int i = 1;  
+      
+      //loop utilizando do while   
+      do{  
+        if(i == 5){  
+           //usando declaração continue  
+           i++;  
+           continue; //Isto irá ignorar o restante da declaração  
+        }  
+      
+        System.out.println(i);  
+        i++;  
+    }while(i <= 10);  
+  }  
+}  
+
+Saída:
+
+1
+2
+3
+4
+6
+7
+8
+9
+10
