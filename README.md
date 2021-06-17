@@ -14,5 +14,8 @@
     Do-While
     While
     For
+    For encadeado
+    For each
+    For marcado
     Break
     Continue
