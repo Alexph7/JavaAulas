@@ -1,0 +1,4 @@
+Método de fábrica
+É um método que retorna um objeto para a classe à qual ele pertence. Todos os métodos estáticos são métodos de fábrica. Por exemplo:
+
+NumberFormat obj = NumberFormat.getNumberInstance();  
