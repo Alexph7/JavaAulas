@@ -1,0 +1,35 @@
+
+if(condicao) {  
+
+    //código da condição if é verdadeira  
+
+} else {  
+
+    //código da condição if é falsa  
+
+}  
+
+=======================================================================================
+
+Exemplo:
+//Um programa java para demonstrar o uso da declaração if-else.  
+//Este é um programa que verifica números pares e impares  
+
+public class IfElseExemplo {  
+
+   public static void main(String[] args) {  
+
+      //definindo uma variável  
+      int numero = 13;  
+      
+      //Verificando se o número é divisível por dois ou não  
+      if(numero % 2 == 0) {  
+       
+              System.out.println("numero par");  
+        
+       } eles {  
+         
+              System.out.println("numero impar");  
+      }  
+   }  
+}  
