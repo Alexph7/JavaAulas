@@ -1,1 +1,24 @@
 
+public void [nome_do_metodo] () { [corpo_do_metodo] }
+
+Onde [nome_do_metodo] é um identificador que define o nome pelo qual o método é conhecido, e [corpo_do_metodo] é o desenvolvimento ou desbravamento propriamente dito deste método. No caso acima, a palavra chave ‘void’, define o valor retornado pelo método, neste caso, nenhum.
+
+public static void  procuraParOuImpar(int num) {  
+   // corpo do método  
+   if (num% 2 == 0 )   
+      System.out.println (num + "é par" )  
+   else   
+      System.out.println (num + "é ímpar" );  
+ }  
+ 
+ 
+ public static void  main (String args []) {  
+      // criando o objeto da classe Scanner  
+      Scanner scan = new  Scanner(System.in);  
+ System.out.print ( "Digite o número:" );  
+      // lendo o valor do usuário  
+      int  num = scan.nextInt();  
+      //chamada de método  
+      procuraParOuImpar(num);  
+}  
+ =================================================================================================================
