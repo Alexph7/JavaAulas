@@ -19,3 +19,11 @@
     For marcado
     Break
     Continue
+4. Estruturas Condicionais
+    If normal
+    If-Else
+    If Encadeado
+    If-Aninhado
+    Switch-case
+    Switch Encadeado
+    Switch Enum
