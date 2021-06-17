@@ -5,6 +5,7 @@ for (inicialização; condição; incr / decr) {
 }
 
 ====================================================
+Exemplo:
 
 public class ExemploWhile {  
   
@@ -17,7 +18,3 @@ public class ExemploWhile {
         }  
      }  
   }  
-  
-  ====================================================
-  
-  
