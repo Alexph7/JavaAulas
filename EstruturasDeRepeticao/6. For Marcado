@@ -1,0 +1,34 @@
+Nós podemos ter um nome de cada loop for do java. Para fazer isso, nós usamos um rotulo antes do loop for. 
+Isto é útil se nós temos um loop for encadeado em que nós podemos parar ou continuar algum loop for especifico.
+
+Geralmente, parar e continuar são as palavras reservadas break e continue, usados na parte mais interna do loop.
+
+SINTAXE:
+  
+labelNome:  
+for(inicialização; condição; incr/decr) {  
+    //código que será executado  
+} 
+
+=======================================================================
+
+//Um programa java para demonstrar o uso do loop for marcado  
+
+public class ExemploForMarcado {  
+    public static void main(String[] args) {  
+       //Usando rotulo para for externo e loop for  
+
+          aa:  
+           for(int i = 1; i <= 3; i++) {  
+          
+                    bb:  
+                    for(int j = 1; j <= 3; j++) {  
+                    
+                          if(i == 2 && j == 2) {  
+                            break aa;  
+                       }  
+                        System.out.println(i + " " + j);  
+                     }  
+            }  
+     }  
+}  
