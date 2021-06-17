@@ -1,0 +1,24 @@
+Ele continua o loop interno apenas se você usar a instrução continue dentro do loop interno
+
+Exemplo:
+
+//Programa java para ilustrar o uso da declaração continue dentro de um loop interno  
+
+public class ContinueExemplo2 {   
+   public static void main(String[] args) {   
+
+            //loop externo  
+            for(int i = 1; i <= 3; i++){     
+            
+                    //loop interno   
+                    for(int j = 1; j <= 3; j++){     
+                    
+                          if(i == 2 && j == 2){     
+                            //usando a declaração continue dentro do loop interno   
+                            continue;     
+                        }     
+                        System.out.println(i + " " + j);     
+                    }     
+            }     
+    }   
+}  
