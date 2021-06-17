@@ -1,0 +1,20 @@
+Método estático
+Um método que possui a palavra-chave static é conhecido como método estático. Em outras palavras, um método que pertence a uma classe e não uma instância de uma classe é conhecido como método estático. Também podemos criar um método estático usando a palavra-chave static antes do nome do método.
+
+A principal vantagem de um método estático é que podemos chamá-lo sem criar um objeto. Ele pode acessar membros de dados estáticos e também alterar seu valor. É usado para criar um método de instância. É chamado usando o nome da classe. O melhor exemplo de um método estático é o método main().
+
+Exemplo de método estático
+Exibir.java
+
+public class Exibir {  
+   public static void  main (String [] args) {  
+      mostrar();  
+   }  
+   static void mostrar() {  
+      System.out.println ( "É um exemplo de método estático." );  
+   }  
+}  
+
+Saída:
+
+É um exemplo de método estático.
