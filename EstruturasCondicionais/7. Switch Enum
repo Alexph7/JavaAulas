@@ -1,0 +1,37 @@
+//Programa Java para demonstrar o use de Enum  
+//em uma declaração switch  
+
+public class JavaSwitchEnumExemplo {    
+       public enum Dia {Dom, Seg, Ter, Qua, Qui, Sex, Sab }  
+       public static void main(String args[])  
+       {  
+         Dia[] diaAgora = Dia.values();  
+           for (Dia agora : diaAgora)  
+           {  
+                switch (agora)  
+                {  
+                    case Dom:  
+                        System.out.println("Domingo");  
+                        break;  
+                    case Seg:   
+                        System.out.println("Segunda");  
+                        break;  
+                    case Ter:  
+                        System.out.println("Terça");  
+                        break;       
+                    case Qua:  
+                        System.out.println("Quarta");  
+                        break;  
+                    case Qui:  
+                        System.out.println("Quinta");  
+                        break;  
+                    case Sex:  
+                        System.out.println("Sexta");  
+                        break;  
+                    case Sab:  
+                        System.out.println("Sabado");  
+                        break;  
+                }  
+            }  
+        }  
+}  
