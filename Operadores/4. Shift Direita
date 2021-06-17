@@ -1,0 +1,41 @@
+Operador Shift para a direita
+O operador Java right shift >> é usado para mover os operandos da esquerda para a direita pelo número de bits especificado pelo operando da direita.
+
+Exemplo de operador Right Shift
+
+class OperadorExemplo {  
+   public static void main (String args []) {  
+   
+      System.out.println (10 >> 2); // 10 / 2 ^ 2 = 10 / 4 = 2  
+      System.out.println (20 >> 2); // 20 / 2 ^ 2 = 20 / 4 = 5  
+      System.out.println (20 >> 3); // 20 / 2 ^ 3 = 20 / 8 = 2  
+   
+   }  
+}
+
+Saida:
+2
+5
+2
+
+Exemplo do operador  Shift: >> vs >>>
+
+class OperadorExemplo {  
+   public static void main (String args []) {  
+   
+      // Para número positivo, >> e >>> funcionam da mesma forma  
+      System.out.println (20 >> 2);  
+      System.out.println (20 >>> 2);  
+   
+   // Para número negativo, >>> altera o bit de paridade (MSB) para 0  
+     System.out.println (-20 >> 2);  
+     System.out.println (-20 >>> 2);  
+   
+   }  
+}  
+Saída:
+
+5
+5
+-5
+1073741819
