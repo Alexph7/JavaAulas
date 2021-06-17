@@ -2,13 +2,11 @@
 if(condicao) {  
    
     //código que será executado  
-
 }   
 
 ===========================================
     
 Exemplo:
-
 //Programa java para demonstrar o uso da declaração if  
 
 public class IfExemplo{  
