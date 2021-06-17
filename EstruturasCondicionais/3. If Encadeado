@@ -1,0 +1,48 @@
+
+if(condicao1) { 
+     //código para ser executado se a condicao1 é verdadeira  
+
+} else if(condicao2) {  
+     //código para ser executado se a condicao2 é verdadeira  
+
+} else if(condicao3) {  
+      //código para ser executado se a condicao3 é verdadeira  
+
+}  
+…  
+else {  
+      //código para ser executado se todas as condições são falsas  
+
+}
+
+=======================================================================
+
+public class IfElseIfExemplo {  
+   
+   public static void main() {  
+   
+      int marcacao = 65;  
+       
+      if(marcacao < 50) {  
+          System.out.println("falha");  
+          
+       }else if(marcacao >= 50 && marcacao < 60) {  
+          System.out.println("grau D");        
+          
+       }else if(marcacao >= 60 && marcacao < 70) {  
+          System.out.println("grau C");        
+       
+       }else if(marcacao >= 70 && marcacao < 80) {  
+          System.out.println("grau B");        
+       
+       }else if(marcacao >= 80 && marcacao < 90) {  
+          System.out.println("grau A");        
+       
+       }else if(marcacao >= 90 && marcacao < 100) {  
+          System.out.println("grau A+");         
+       
+       }else{  
+          System.out.println("Invalido!");  
+      }  
+   }  
+}  
