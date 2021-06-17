@@ -5,7 +5,9 @@
     } while(true);
   
 ========================
-    
+
+Exemplo:
+
 public class DoWhileExemplo {  
     public static void main(String[] args) {  
    
@@ -16,8 +18,4 @@ public class DoWhileExemplo {
               i++;  
            }while(i <= 10);  
     }  
-}  
-
-=========================
-    
-    
+} 
