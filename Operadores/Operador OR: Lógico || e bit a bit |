@@ -1,0 +1,31 @@
+Exemplo de operador OR: Lógico || e bit a bit |
+      O operador lógico || não verifica a segunda condição se a primeira condição for verdadeira. Ele verifica a segunda condição apenas se a primeira for falsa.
+
+O operador bit a bit | sempre verifica as duas condições se a primeira condição é verdadeira ou falsa.
+
+class OperadorExemplo {  
+   public static void main (String args []) {  
+   
+      int a = 10;  
+      int b = 5;  
+      int c = 20;  
+   
+   System.out.println(a > b || a < c); // true || true = true  
+   System.out.println(a > b | a < c); // true | true = true  
+      // ||vs |  
+
+    System.out.println (a > b || a ++ < c); // true || true = true  
+    System.out.println (a); // 10 porque a segunda condição não está marcada  
+    System.out.println (a > b | a ++ < c); // true | true = true  
+    System.out.println (a); // 11 porque a segunda condição está marcada  
+    
+   }  
+}  
+Saída:
+
+true
+true
+true
+10
+true
+11
