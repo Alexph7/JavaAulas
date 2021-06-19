@@ -1,0 +1,33 @@
+Operador Ternário
+O operador ternário é usado como um substituto para a instrução if-then-else e muito usado na programação Java. É o único operador condicional que leva três operandos.
+
+Exemplo de operador ternário Java
+class OperadorExemplo {  
+   public static void main (String args []) {  
+   
+      int a = 2;  
+      int b = 5;  
+      int min = (a < b) ? a : b;  
+      
+      System.out.println(min);  
+   }  
+}
+
+Saída:
+2
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class OperadorExemplo {  
+   public static void main (String args []) {  
+   
+      int a = 10;  
+      int b = 5;  
+      int min = (a < b) ? a : b;  
+      
+      System.out.println (min);  
+   }  
+}  
+
+Saída:
+5
