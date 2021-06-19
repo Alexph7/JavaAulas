@@ -1,0 +1,30 @@
+ 
+public static void main (String args []) {  
+
+   short a = 10;  
+   short b = 10;  
+   
+   //a += b; //a = a + b internamente tem o mesmo resultado  
+   
+    a = a + b; // Erro em tempo de compilação porque 10 + 10 = 20 agora int  
+    
+    System.out.println(a);  
+}  
+  
+Saída:
+Erro de tempo de compilação
+=============================
+Após alteração no tipo:
+
+public static void main (String args []) { 
+
+ short a =10; 
+ short b =10;  
+ 
+ a = (short) (a + b); // 20, que agora é convertido para short 
+ 
+ System.out.println(a);  
+   }  
+  
+Saída:
+20
