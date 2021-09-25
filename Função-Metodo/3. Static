@@ -9,14 +9,42 @@ Exemplo de método estático
 Exibir.java
 
 public class Exibir {  
+  
+  static void mostrar() {  
+      System.out.println ( "É um exemplo de método estático." );  
+   }  
+  
    public static void  main (String [] args) {  
       mostrar();  
    }  
-   static void mostrar() {  
-      System.out.println ( "É um exemplo de método estático." );  
-   }  
+   
 }  
 
 Saída:
 
 É um exemplo de método estático.
+
+
+sintaxes
+sem retorno:
+public static void jogarDados(){
+
+
+}
+
+
+            com retorno sem parametros:
+            public static int jogarDados(){
+               int n1 = 6;
+               int n2 = 5;
+               int soma = n1+n2;
+               return soma;
+            }
+            
+Com retorno e com parametros:
+public static int jogarDados(int x, int y){
+       int n1 = x;
+       int n2 = y;
+       int soma = n1+n2;
+       return soma;
+}
